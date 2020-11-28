@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function validar(){
+            var psswd=document.getElementById("psswd").value;
+            var confpsswd=document.getElementById("confpsswd").value;
+            if(psswd==confpsswd){
+            return true;
+            }
+            else{
+            alert("No coincideix");
+            return false;
+            }
+            }
+            </script>
+        <meta charset=UTF-8>
+        <title>Formulari d'enviament</title>
+    </hed>
+    <body>
+        <font face="verdana"><font/>
+            <table bgcolor="EFEFEF" align="center"  width="45%">
+                <tr>
+                    <th bgcolor="#306090" align="left" colspan="4" rowspan="2"><font color="white">Enviar missatge<img  align="right"src="../img/gb_reload_s.gif"></th></font>
+                <form form="GET" onsubmit="return validar();">
+                    <tr>
+                    </tr>
+                </tr>
+                <tr>
+                    <td rowspan="5" width="5%"></td>
+                    <td align="right"><b>Nom: </b><input type="text" type="hidden" name="id" maxlength="20"></td>
+                    <td></td>
+                    <td rowspan="5" width="5%"></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Usuari: </b><input type="text" name="Usuari"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Contrasenya: </b><input type="password" name="Contrasenya" id="passwd"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Repetició de la contrasenya: </b> <input type="password" id="confpasswd"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                   <td align="right"><b>E-mail: </b><input type="email" name="e-mail" placeholder="Ex.: user@inslapineda.cat" required></td>
+                   <td></td> 
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td align=center><b>Quins jocs t'interessen?  </b><input type="checkbox" name="checkbox1">F1
+                    <input type="checkbox" name="checkbox 2">DOOM
+                    <input type="checkbox" name="checkbox 2">2K20
+                   </td>
+                    <td></td>
+                    <td></td>  
+                    
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><b>Arxiu: </b><input type=text></td>
+                    <td><input type="file" name="arxiu" value="4000"></td>
+                    <td></td>
+                </tr>
+                 <tr>
+                     <td></td>
+                     <td align="right"><b>Imatge: </b><input type="text"></td>
+                     <td><input type="file" accept="image/png, image/jpg ,image/jpeg ,image/gif" value="4000" name="imagen"></td>
+                     <td></td>
+                     
+                 </tr>
+                 <tr></tr>
+                 <tr>
+                     <td></td>
+                     <td colspan="2" align="center"><small>El tamany de l'arxiu i la imatge no pot excedir els 4 KBytes</small></td>
+                     <td></td>                   
+                 </tr>
+                 <tr></tr>
+                <tr>
+                    <td></td>
+                    <td align="center" colspan="2"><small>Requereix resposta: </small> <input type="radio" name="elect" value="Si">Sí
+                    <input type="radio" name="elect" value="No">No
+                    </td>
+                    <td></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td align="center" colspan="2"><b>Missatge</b></td>
+                    <td></td>
+                </tr>
+                 <tr></tr>
+                 <tr>
+                    <td></td>
+                    <td align="center" colspan="2"><textarea cols="60" rows="10" name="missatge"></textarea></td>
+                    <td></td>                  
+                 </tr>
+                 <tr></tr>
+                 <tr>
+                     <td></td>
+                     <td  align="center" colspan="2"><input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                    <td></td>                  
+                    </td>
+                 </tr>
+                
+            </form>
+            
+            </table>   
+    </body>
+</html>
