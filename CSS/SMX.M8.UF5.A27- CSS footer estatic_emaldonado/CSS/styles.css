@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+#footer{
+    color: white;
+    background-color: #288498;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    position: absolute;
+    margin-top: 22%;
+    font-size: calc(0.5em + 0.3vw);
+}
+#contenedor{
+    font-size: calc(0.5em + 0.3vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;
+}

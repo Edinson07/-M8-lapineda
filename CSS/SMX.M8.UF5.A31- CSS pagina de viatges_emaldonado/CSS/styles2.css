@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+}
+#nocap{
+    display: flex;
+    width: 400px;
+    height: 280px;
+    margin: 10% auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#uno{
+    width: 200px;
+    height: 70px;
+    background-image: url(https://d3ne5s9fv9p81l.cloudfront.net/images/201504091428609222_5526d8c6e85dd_watermark_800_800.jpg?imageView2/5/w/1000/h/560/format/auto);
+    background-size: cover;
+}
+#dos{
+    width: 200px;
+    height: 70px;
+    background-color:  blue;
+    background-image: url(https://lh3.googleusercontent.com/proxy/VRtWMtKx_R_nK8F6TNNs7205qOgxO8dFEHUDxYBzsGBWEQU0HjyR6HTVUgePbp7IlcPGTSO5SeohCz_MJ9zSsLb_FIpEzB-ura_XN541X2H1DgYR2UmU0HBssfLjE12PDbXtuN2SWAtXI-oq9pEI)
+}
+#tres{
+    width: 100px;
+    height: 140px;
+    background-image: url(https://s03.s3c.es/imag/_v0/770x420/d/a/5/770x420-islas-cook-hombre-nadando-aguas-cristalinas.jpg);
+    background-size: cover;
+}
+.primero{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.segundo{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+#cuatro{
+    width: 100px;
+    height: 70px;
+    background-image: url(http://1.bp.blogspot.com/-8g-CeIGuIEk/TnpORckT1ZI/AAAAAAAAleM/Qb37Z8lKwbI/s1600/Paisajes-del-paraiso-Monta%25C3%25B1as-y-Rio.jpg);
+    background-size: cover;
+}
+#cinco{
+    width: 200px;
+    height: 70px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRNbesy5seYmiOgimsg4h99QiUwfGqqPhDQ&usqp=CAU);
+    background-size: cover;
+}
+.tercero{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+}
+#seis{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://loff.it/wp-content/uploads/2015/03/loffit-viaje-al-paraiso-08.jpg);
+    background-size: cover;
+}
+#siete{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7ar_2A8llPqBuCJ5vNfyOmKhU67Rqx99og&usqp=CAU);
+    background-size: cover;
+}
+#ocho{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://www.hola.com/imagenes/viajes/20181121133293/guatemala-paraisos-naturales-centro-america/0-622-142/guatemala-naturaleza-m.jpg);
+    background-size: cover;
+}
+    
+.cuarto{
+    width:400px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+#nueve{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://i.pinimg.com/236x/9b/b2/79/9bb27971d2b0f992a5687bcc9863fa34--le-palace-water-reflections.jpg);
+    background-size: cover;    
+}
+#diez{
+    width: 100px;
+    height: 70px;
+    background-image: url(http://www.paredro.com/wp-content/uploads/2015/08/jardines-02.jpg);
+    background-size: cover;  
+}
+#once{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6vh_EJMm6Q5vsFtT3NVyny6I3f7o4OlyDg&usqp=CAU);
+    background-size: cover;  
+}
+#doce{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://www.hola.com/imagenes/viajes/2017011690955/paraisos-filipinas-naturaleza/0-417-158/Filipinas-paraisos-e.jpg);
+    background-size: cover;
+}

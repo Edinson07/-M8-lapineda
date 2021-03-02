@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif,arial;
+    color: black;
+    list-style:none;
+    text-decoration:none;
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    margin: auto;
+}
+ul, li{
+    list-style: none;
+}
+.nav li a{
+    background-color:green;
+    color: white;
+    text-decoration:none;
+    display:block;
+    padding: 15px 19px;
+}
+.nav > li{
+    float:left;
+    text-align: left;
+}
+.nav li a:hover{
+    color: gold;
+}
+.nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display:block;
+}
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>cookies</title>
+        <script type="text/javascript" src="../js/cookies.js"></script>      
+        </style>
+    </head>
+    <body>
+        <hr/>
+        <form onsubmit="comprova();">
+            <p>Usuari: <input type="text" id="usuari" name="usuari" required></p>
+            <p>Contrasenya: <input type="password" id="contrasenya" name="contrasenya" required></p>
+            <p>Repeteix contrasenya: <input type="password" id="veri" name="veri" required></p>
+            <input type="submit" id="com" value="Comprovar">
+            </p>
+            <p>Nom: <input type="text" id="nom" name="nom" ></p>
+            <p>Cognom: <input type="text" id="cog" name="cog" ></p>
+            <input type="button" id="buno" name="buno" value="Guardar dades" onclick="guardar()">
+            <input type="button" id="bdos" name="bdos" value="Recuperar dades" onclick="recuperar()">
+            <input type="button" id="btres" name="btres" value="Esborrar dades" onclick="esborrar()">
+        </form>
+
+    </body>
+</html>

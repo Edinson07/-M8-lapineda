@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+    background-color:black;
+}
+#mega{
+    width: 400px;
+    height: 280px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+
+}
+#primero{
+    width: 44px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-right: 4px black solid;
+}
+#uno{
+    width: 44px;
+    height: 56px;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+}
+#dos{
+    width: 44px;
+    height: 168px;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+}
+#tres{
+    width: 44px;
+    height: 29px;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+}
+#cuatro{
+    width: 44px;
+    height: 29px;
+    border-right: 4px black solid;
+}
+#segundo{
+    width: 88px;
+    height: 280px;
+    border-right: 4px black solid;
+    background-color: #ffdf00;
+
+}
+#tercero{
+    width: 88px;
+    height: 280px;
+    border-right: 4px black solid;
+    background-color: #ffdf00;
+
+}
+#cinco{
+    width: 88px;
+    height: 93px;
+    background-color: #4040ff;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+}
+#cuarto{
+    width: 88px;
+    height: 280px;
+    border-right: 4px black solid;
+    background-color: red;
+}
+#seis{
+    width: 88px;
+    height: 184px;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+}
+#quinto{
+    width: 88px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    border-right: 4px black solid;
+
+}
+#sexto{
+    width: 44px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    border-right: 4px black solid;
+    
+}
+#siete{
+    width: 44px;
+    height: 28px;
+    border-bottom: 4px black solid;
+}
+#ocho{
+    width: 44px;
+    height: 55px;
+    background-color: #4040ff;
+}

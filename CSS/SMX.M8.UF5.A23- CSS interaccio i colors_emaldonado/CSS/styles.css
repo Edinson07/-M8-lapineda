@@ -1,0 +1,89 @@
+body{ 
+    background-image:url("../img/foto.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 100%;
+ }
+ table{
+     width: 70%;
+ }
+ .p1{
+     background-color: green;
+ }
+ /*cambio de color1*/
+ .p1:hover{
+    background-color:#F933FF;
+ }
+ .p2{
+     background-color: #46FF33;
+ }
+ /*cambio de color2*/
+ .p2:hover{
+     background-color: #CA33FF;
+ }
+ .p3{
+     background-color: #33FFB5;
+ }
+ /*cambio de color3*/
+ .p3:hover{
+     background-color: #9C33FF;
+ }
+ .p4{
+     background-color: #33FFF6;
+ }
+ /*cambio de color4*/
+ .p4:hover{
+     background-color: #6E33FF;
+ }
+ .p5{
+     background-color: #33BBFF;
+ }
+  /*cambio de color5*/
+  .p5:hover{
+      background-color: green;
+  }
+ .p6{
+    background-color: #3339FF;
+}
+ /*cambio de color6*/
+ .p6:hover{
+    background-color:  #46FF33;
+ }
+ .p7{
+     background-color: #6E33FF;
+ }
+  /*cambio de color7*/
+  .p7:hover{
+      background-color: #33FFB5;
+  }
+ .p8{
+     background-color: #9C33FF;
+ }
+  /*cambio de color8*/
+  .p8:hover{
+      background-color: #33FFF6;
+  }
+ .p9{
+     background-color: #CA33FF;
+ }
+  /*cambio de color9*/
+  .p9:hover{
+    background-color:#33BBFF;
+  }
+ .p10{
+     background-color: #F933FF;
+ }
+  /*cambio de color10*/
+  .p10:hover{
+      background-color:  #3339FF;
+  }
+ .pri{
+     text-decoration: underline;
+ }
+ .se{
+     text-decoration: overline;
+ }
+ .ter{
+     font-weight: bold;
+ }

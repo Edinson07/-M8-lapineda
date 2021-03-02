@@ -1,0 +1,142 @@
+
+/*caixes*/
+#primero{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100;
+    margin: 3em;
+}
+.box1{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+.box2{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+.box3 {
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+#segundo{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100;
+    margin: 3em;
+}
+.box4{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+.box5{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+.box6{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+#tercero{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100;
+    margin: 3em;
+}
+.box7{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}     
+.box8{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}   
+.box9{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+/*caixes*/
+
+/*noms*/
+#nocap2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+    padding: 5px 8px;
+}
+.uno{
+    border: 3px solid green;
+    height: 50px;
+    
+}
+.dos{
+    border: 1px dashed green;
+    height: 50px;
+}
+.tres{
+    border: 1px dashed blue;
+    height: 50px;
+}
+.cuatro{
+    border: 1px dashed red; 
+    height: 50px;
+}
+.cinco{
+    border: 3px solid red;
+    height: 50px;
+}
+
+
+
+
+
+
+/*noms*/
